@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Api_Fetch from './components/Api_Fetch';
+import Api_AsyncAwait from './components/Api_AsyncAwait';
+import Api_Axios from './components/Api_Axios';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: '20px' }}>
+      <h1>Demo Gọi API trong React</h1>
+      <p>Bấm nút trong từng khung để test dữ liệu trả về từ Server ảo.</p>
+      
+      {/* Hiển thị 3 component */}
+      <Api_Fetch />
+      <Api_AsyncAwait />
+      <Api_Axios />
     </div>
   );
 }
