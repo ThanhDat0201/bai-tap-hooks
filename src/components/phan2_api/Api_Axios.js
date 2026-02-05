@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios'; // Nhớ import axios
 
-function Api_Axios() {
+function ApiAxios() {
   const [photos, setPhotos] = useState([]);
 
   const handleGetClick = async () => {
@@ -27,4 +27,4 @@ function Api_Axios() {
     </div>
   );
 }
-export default Api_Axios;
+export default ApiAxios; 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Api_Fetch() {
+function ApiFetch() {
   const [data, setData] = useState([]);
 
   // Hàm gọi API kiểu cũ (Promise chaining)
@@ -26,4 +26,4 @@ function Api_Fetch() {
     </div>
   );
 }
-export default Api_Fetch;
+export default ApiFetch; 

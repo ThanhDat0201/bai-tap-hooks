@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Api_AsyncAwait() {
+function ApiAsyncAwait() {
   const [posts, setPosts] = useState([]);
 
   // Hàm gọi API kiểu Async/Await (Hiện đại)
@@ -27,4 +27,4 @@ function Api_AsyncAwait() {
     </div>
   );
 }
-export default Api_AsyncAwait;
+export default ApiAsyncAwait; 
